@@ -1,10 +1,15 @@
-
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <p className='text-5xl text-red-500 bg-blue-300'>Hello Prince</p>
+      <p className='text-5xl text-red-500 bg-blue-300 rounded-md'>Hello Prince</p>
+      <button class="btn">Button</button>
+<button class="btn btn-neutral">Neutral</button>
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-secondary">Secondary</button>
+<button class="btn btn-accent">Accent</button>
+<button class="btn btn-ghost">Ghost</button>
+<button class="btn btn-link">Link</button>
     </>
   )
 }
